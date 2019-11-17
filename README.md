@@ -8,7 +8,7 @@ Validation of the generated tree is two-fold. First validation is done in Python
 
 1. What is a Wallace tree of 3-2 carry save adders?
 2. How to get your own Wallace tree of 3-2 carry save adders?
-2.1. How to get the testbench code?
+3. How to get the testbench code?
 
 
 ### 1. What is a Wallace tree of 3-2 carry save adders?
@@ -18,9 +18,7 @@ This adder implementation is inspired by the Wallace multiplier ([wiki article](
 First you need to know how a Wallace multiplier ([youtube video](https://www.youtube.com/watch?v=4-l_PGPog9o&t=96s)) works.
 The only difference between these two algorithms is that instead of the partial products you have individual operands in the rows, and they are all aligned to to right at the start (note the order of bits MSB -> LSB).
 
-Here's an example:
-
-![Example](Capture.PNG)
+![Example of adding 12 five bit numbers / operands](Capture.PNG)
 
 And those five steps (where the number of operands is greater than two) each have the time delay of one full-adder circuit. So the last addition is the slower part of the circuit.
 
@@ -31,6 +29,6 @@ And those five steps (where the number of operands is greater than two) each hav
 3. Go to project directory and run: **python3 wallace_tree \<number of operands> <operand's bit-length>**
 4. Get your Verilog code from the wallace_tree.txt
 
-#### 2.1. How to get the testbench code?
+### 3. How to get the testbench code?
 1. Go to project directory and run: **python3 wallace_testbench \<number of operands> <operand's bit-length>**
 2. Get the testbench code from wallace_testbench.txt
