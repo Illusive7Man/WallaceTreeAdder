@@ -28,7 +28,7 @@ And those 5 steps (where the number of operands is greater than two) each have t
 
 1. Install python 3+
 2. Install python packages: numpy and pandas
-3. Go to project directory and run: **python3 wallace_adder \<number of operands> <operand's bit-length>**
+3. Go to project directory and run: **python3 wallace_tree \<number of operands> <operand's bit-length>**
 4. Get your Verilog code from the wallace_tree.txt
 
 #### 2.1. How to get the testbench code?
