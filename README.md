@@ -19,6 +19,7 @@ First you need to know how a Wallace multiplier ([youtube video](https://www.you
 The only difference between these two algorithms is that instead of the partial products you have individual operands in the rows, and they are all aligned to to right at the start (note the order of bits MSB -> LSB).
 
 Here's an example:
+
 ![Example](Capture.PNG)
 
 And those 5 steps (where the number of operands is greater than two) each have the time delay of one full-adder circuit. So the last addition is the slower part of the circuit.
