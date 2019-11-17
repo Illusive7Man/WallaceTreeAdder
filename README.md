@@ -13,7 +13,7 @@ Validation of the generated tree is two-fold. First validation is done in Python
 
 ### 1. What is a Wallace tree of 3-2 carry save adders?
 
-This adder implementation is inspired by the Wallace multiplier ([wiki article](https://en.wikipedia.org/wiki/Wallace_tree)) and has a more favorable space, time requirements.
+This adder implementation is inspired by the Wallace multiplier ([wiki article](https://en.wikipedia.org/wiki/Wallace_tree)) and has similar space, time requirements.
 
 First you need to know how a Wallace multiplier ([youtube video](https://www.youtube.com/watch?v=4-l_PGPog9o&t=96s)) works.
 The only difference between these two algorithms is that instead of the partial products you have individual operands in the rows, and they are all aligned to to right at the start (note the order of bits MSB -> LSB).
