@@ -22,7 +22,7 @@ Here's an example:
 
 ![Example](Capture.PNG)
 
-And those 5 steps (where the number of operands is greater than two) each have the time delay of one full-adder circuit. So the last addition is the slower part of the circuit.
+And those five steps (where the number of operands is greater than two) each have the time delay of one full-adder circuit. So the last addition is the slower part of the circuit.
 
 ### 2. How to get your own Wallace tree of 3-2 carry save adders?
 
