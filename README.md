@@ -7,7 +7,7 @@ Validation of the generated tree is two-fold. First validation is done in Python
 ## Content
 
 1. What is a Wallace tree of 3-2 carry save adders?
-2. How to get your own Wallace tree of 3-2 carry save adders?                                                                              - 2.1. How to get the testbench code?
+2. How to get your own Wallace tree of 3-2 carry save adders?                                                                              - How to get the testbench code?
 
 
 ### 1. What is a Wallace tree of 3-2 carry save adders?
